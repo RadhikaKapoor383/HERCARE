@@ -520,7 +520,31 @@
     "email": "radhikakapoor@gmail.com",
     "password": "Radhika",
     "created_at": 1783255699000,
-    "assessments": []
+    "assessments": [],
+    "recovery": {
+      "plan": {
+        "procedure_name": "Document is a Sample Laboratory Report and Prescription, not a hospital discharge summary.",
+        "recovery_period_days": 0,
+        "medications": [
+          {
+            "name": "Levothyroxine",
+            "dosage": "25 mcg",
+            "timing": "before breakfast",
+            "purpose": "Thyroid hormone replacement",
+            "frequency": "once daily",
+            "reminder_times": [
+              "09:00"
+            ]
+          }
+        ],
+        "dietary_restrictions": [],
+        "activities_to_avoid": [],
+        "follow_up_date": "2026-08-14",
+        "warning_signs": []
+      },
+      "completed_tasks": {},
+      "saved_at": 1783276015149
+    }
   },
   "hamzaqureshi0128@gmail.com": {
     "name": "Hamza Akhtar",
@@ -638,5 +662,77 @@
         "timestamp": 1783270935276
       }
     ]
+  },
+  "rida@gmail.com": {
+    "name": "Rida",
+    "email": "rida@gmail.com",
+    "password": "123456",
+    "created_at": 1783276056387,
+    "assessments": [],
+    "recovery": {
+      "plan": {
+        "procedure_name": "Gynecological Surgery",
+        "recovery_period_days": 42,
+        "medications": [
+          {
+            "name": "Co-Amoxiclav",
+            "dosage": "625 mg",
+            "timing": "1 morning + 1 night",
+            "purpose": "Antibiotic",
+            "frequency": "5 Days",
+            "reminder_times": [
+              "09:00"
+            ]
+          },
+          {
+            "name": "Ibuprofen",
+            "dosage": "400 mg",
+            "timing": "1 morning + 1 night",
+            "purpose": "Painkiller",
+            "frequency": "5 Days",
+            "reminder_times": [
+              "09:00"
+            ]
+          },
+          {
+            "name": "Fefol",
+            "dosage": "Standard",
+            "timing": "1 capsule daily",
+            "purpose": "Iron Supplement",
+            "frequency": "30 Days",
+            "reminder_times": [
+              "09:00"
+            ]
+          },
+          {
+            "name": "Cac-1000",
+            "dosage": "1 Tablet",
+            "timing": "1 glass of water daily",
+            "purpose": "Calcium",
+            "frequency": "30 Days",
+            "reminder_times": [
+              "09:00"
+            ]
+          }
+        ],
+        "dietary_restrictions": [
+          "High-protein diet (eggs, meat, pulses)",
+          "Plenty of fluids",
+          "Avoid constipation"
+        ],
+        "activities_to_avoid": [
+          "Lifting heavy weights",
+          "Climbing steep stairs"
+        ],
+        "follow_up_date": "2026-07-12",
+        "warning_signs": [
+          "High-grade fever (>100.4°F) or severe chills",
+          "Heavy vaginal bleeding or foul-smelling discharge",
+          "Pus discharge, swelling, or opening of the surgical wound"
+        ]
+      },
+      "completed_tasks": {},
+      "saved_at": 1783276116424
+    }
   }
 }
